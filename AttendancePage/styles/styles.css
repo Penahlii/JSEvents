@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+.attendance-form {
+  margin-top: 20px;
+}
+.attendance-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+.attendance-form input,
+.attendance-form select,
+.attendance-form textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+.attendance-form button {
+  margin-top: 10px;
+}
+.attendance-list {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}

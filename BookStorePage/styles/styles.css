@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+.order-form {
+  margin-top: 20px;
+}
+.order-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+.order-form input,
+.order-form select,
+.order-form textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+.order-form button {
+  margin-top: 10px;
+}
+.confirmation {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}

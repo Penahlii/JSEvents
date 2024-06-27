@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <h1>Train Ticket Booking</h1>
+    <div class="booking-form">
+      <label for="direction">Select Direction:</label>
+      <select id="direction">
+        <option value="Direction 1">Direction 1</option>
+        <option value="Direction 2">Direction 2</option>
+        <option value="Direction 3">Direction 3</option>
+      </select>
+      <label for="date">Travel Date:</label>
+      <input type="date" id="date" />
+      <label for="seats">Select Seats:</label>
+      <textarea
+        id="seats"
+        placeholder="Enter seat numbers separated by commas"
+      ></textarea>
+      <button onclick="bookTickets()">Book Tickets</button>
+    </div>
+    <div class="booked-tickets" id="bookedTickets"></div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
